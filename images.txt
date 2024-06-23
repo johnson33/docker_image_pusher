@@ -1,11 +1,7 @@
-nginx
-#支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
---platform=linux/arm64 xiaoyaliu/alist
-xagentteam/toolserver-manager:latest
-xagentteam/toolserver-node:latest
-xagentteam/xagent-server:latest
-mongo
-mysql
-redis
+nginx:latest
+mongo:latest
+mysql:latest
+redis:latest
+python:3.10
+pytorch/pytorch:2.1.0-cuda11.8-cudnn8-devel
+node:lts-alpine 
